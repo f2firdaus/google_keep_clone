@@ -68,6 +68,7 @@ text-align: center;
   background: none;
 color: white;
 margin: 5px;
+cursor: pointer;
 padding: 10px 25px;
 }
 .search_field{
