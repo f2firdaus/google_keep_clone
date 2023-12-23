@@ -22,9 +22,7 @@ const AllNotes = ({ addItems, setAddItems }) => {
       addItems[idx].content = updatedtextArea;
 
       localStorage.setItem("items", JSON.stringify(addItems));
-      // setUpdatedInput('');
-          // setUpdatedtextArea('')
-          
+      
     }
     setShowField(false);
     
