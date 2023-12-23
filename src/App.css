@@ -1,0 +1,139 @@
+.main-note {
+  display: flex;
+  flex-direction: column;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background:rgb(27, 22, 22);
+  color: white;
+}
+.color {
+}
+input {
+  width: 340px;
+}
+
+
+.input_box {
+  display: flex;
+  justify-content: center;
+}
+.input_field {
+  display: flex;
+  justify-content: center;
+}
+.textarea {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.textarea1 {
+  margin-top: -5px;
+  resize: none;
+  border-top: none;
+  white-space: pre-line;
+
+  /* overflow: hidden; */
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.more_btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px; /* Adjust margin as needed */
+}
+
+.more {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+}
+.search_field{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+.search_field input{
+  width: 40rem;
+
+}
+.input1 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 1px;
+  border: 2px solid inherit;
+}
+input,
+textarea {
+  padding: 8px;
+  margin-top: 10px;
+  width: 30rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  background-color: rgb(34, 31, 31);
+  border: 2px solid rgba(7, 3, 3, 0.83);
+  outline: none;
+}
+.input::placeholder {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.textarea1::placeholder {
+  font-size: 0.8rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.input_textarea {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 0 auto;
+  align-items: center;
+}
+.title {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.note_box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+align-items: center;
+  margin-top: 20px;
+  /* border: 2px solid red; */
+}
+.inside {
+  display: flex;
+  
+  min-width: 100px;
+  flex-wrap: wrap;
+  
+  /* justify-content: center; */
+}
+
+.inside-content {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  position: relative;
+  border-radius: 6px;
+  min-height: 120px;
+  gap: 5px;
+  /* height: 100%; */
+  /* min-width: 60px; */
+}
+.inside-content {
+  border: 1px solid black;
+}
