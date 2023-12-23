@@ -58,6 +58,18 @@ input {
   color: white;
   cursor: pointer;
 }
+.submit_btns{
+  
+text-align: center;
+
+
+}
+.submit_btns button{
+  background: none;
+color: white;
+margin: 5px;
+padding: 10px 25px;
+}
 .search_field{
   display: flex;
   justify-content: flex-start;

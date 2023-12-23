@@ -76,8 +76,8 @@ const CreateNote = ({
                 ><br/></textarea>
               </div>
             </div>
-            <div>
-              <button type="submit">Add Keep</button>
+            <div className="submit_btns">
+              <button type="submit" >Add Keep</button>
             </div>
           </>
         ) : (
